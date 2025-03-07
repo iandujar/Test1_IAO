@@ -37,7 +37,6 @@ fig4=px.bar(
     color="Term",
     text="Enrolled Students",
     title="Number of Enrolled Students by Department in 2015",
-    color_discrete_map=color_map,  # Custom colors
     barmode="group"  # Grouped bars
 )
 
