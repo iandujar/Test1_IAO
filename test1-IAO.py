@@ -36,7 +36,7 @@ fig4=px.bar(
     y="Enrolled Students",
     color="Term",
     text="Enrolled Students",
-    title="Number of Enrolled Students by Department in 2015",
+    title="Number of Enrolled Students by Department",
     barmode="group"  # Grouped bars
 )
 
