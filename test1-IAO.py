@@ -11,7 +11,7 @@ university_long = pd.melt(
     var_name="Department",
     value_name="Enrolled Students"
 )
-university_long['Department'] = df_long['Department'].str.replace(" Enrolled", "")
+university_long['Department'] = university_long['Department'].str.replace(" Enrolled", "")
 
 # Streamlit App Title
 st.title("📊 Applications, admission and enrollments in University")
